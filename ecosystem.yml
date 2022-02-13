@@ -1,0 +1,12 @@
+apps:
+  - name: 'topceo-server'
+    script: 'npm'
+    args: 'start'
+    env:
+      NODE_ENV: production
+      DATABASE_HOST: topceo.c7nfyqfpo3mm.us-east-2.rds.amazonaws.com
+      DATABASE_PORT: 3306
+      DATABASE_NAME: topceo
+      DATABASE_USERNAME: admin
+      DATABASE_PASSWORD: oneHellOfaPassword
+
